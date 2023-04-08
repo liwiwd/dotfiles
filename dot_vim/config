@@ -1,0 +1,41 @@
+vim9script
+
+# Plugins will be downloaded under the specified directory.
+plug#begin('~/.vim/plugged')
+
+# Declare the list of plugins.
+Plug 'tpope/vim-sensible'
+Plug 'junegunn/seoul256.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'mhinz/vim-startify'
+#Plug 'bagrat/vim-buffet'
+Plug 'ryanoasis/vim-devicons'
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
+
+# List ends here. Plugins become visible to vim after this call.
+plug#end()
+
+set encoding=UTF-8
+set t_Co=256
+set laststatus=2
+
+g:airline#extensions#tabline#enabled = 1
+g:airline_theme = 'violet'
+g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+  g:airline_symbols = {}
+endif
+
+# powerline symbols
+g:airline_left_sep = ''
+g:airline_left_alt_sep = ''
+g:airline_right_sep = ''
+g:airline_right_alt_sep = ''
+g:airline_symbols.branch = ''
+g:airline_symbols.colnr = ' ℅:'
+g:airline_symbols.maxlinenr = '☰ '
+g:airline_symbols.dirty = '⚡'

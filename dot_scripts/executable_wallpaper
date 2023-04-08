@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if ! swww query; then
+	swww init
+fi
+
+#BACKGROUND_IMAGE=~/.wallpapers/catalina-night.jpg
+BACKGROUND_IMAGE=/usr/share/wallpapers/EveningGlow/contents/images/1920x1080.jpg
+swww img -t any --transition-bezier 0.0,0.0,1.0,1.0 --transition-duration .8 --transition-step 255 --transition-fps 60 $BACKGROUND_IMAGE

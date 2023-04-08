@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+devilspie2 > /dev/null 2>&1 &
