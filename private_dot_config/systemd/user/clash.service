@@ -1,0 +1,10 @@
+[Unit]
+Description=clash@proxy written in go
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=%h/bin/clash
+
+[Install]
+WantedBy=default.target

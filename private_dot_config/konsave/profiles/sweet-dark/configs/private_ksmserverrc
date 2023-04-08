@@ -1,0 +1,29 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=1028c1d320b210000167566419000000230200004
+clientId2=1011d1289a99000167478544600000019400006
+clientId3=1028c1d320b210000167566512400000230200012
+clientId4=1028c1d320b210000167570207800000230200024
+count=4
+discardCommand2[$e]=rm,$HOME/.config/session/yakuake_1011d1289a99000167478544600000019400006_1675702112_772970
+program1=/usr/bin/kalendarac
+program2=/usr/bin/yakuake
+program3=firefox
+program4=/usr/libexec/drkonqi
+restartCommand1=/usr/bin/kalendarac,-session,1028c1d320b210000167566419000000230200004_1675702112_749076
+restartCommand2=/usr/bin/yakuake,-session,1011d1289a99000167478544600000019400006_1675702112_772970
+restartCommand3=/usr/bin/firefox,--sm-client-id,1028c1d320b210000167566512400000230200012
+restartCommand4=/usr/libexec/drkonqi,-session,1028c1d320b210000167570207800000230200024_1675702112_595023
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=sight
+userId2=sight
+userId3=sight
+userId4=sight

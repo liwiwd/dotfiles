@@ -1,0 +1,15 @@
+vim9script
+
+g:mapleader = ";"
+map <Leader>fs :w<CR>
+map <Leader>w :wq<CR>
+map <Leader>qq :qa<CR>
+map <M-Left> :bp<CR>
+map <M-Right> :bn<CR>
+map <Leader>h :sp<CR>
+map <Leader>v :vs<CR>
+map <Leader>n :new<CR>
+map <Leader>d :bd<CR>
+map <Leader>x :bw<CR>
+map <Leader>xx :bw!<CR>
+map <C-t> :tabnew split<CR> 

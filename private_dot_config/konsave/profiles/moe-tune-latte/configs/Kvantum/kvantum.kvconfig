@@ -1,0 +1,5 @@
+[General]
+theme=Sweet-transparent-toolbar
+
+[Applications]
+Sweet-transparent-toolbar=netease-cloud-music-gtk4

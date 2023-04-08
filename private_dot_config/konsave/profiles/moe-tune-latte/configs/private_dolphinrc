@@ -1,0 +1,73 @@
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAACGfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAACGQAAAF0BAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAAC+QAAAhkAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+VGA-1 Height 1080=575
+VGA-1 Width 1920=946
+VGA-1 XPosition=788
+VGA-1 YPosition=246
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+
+[Baloo KEditCommentDialog]
+DVI-I-1 Height 1920x1080 DVI-I-1=246
+DVI-I-1 Width 1920x1080 DVI-I-1=274
+
+[Desktop Entry]
+DefaultProfile=sweet.profile
+
+[ExtractDialog]
+DVI-I-1 Height 1920x1080=558
+DVI-I-1 Width 1920x1080=1280
+DirHistory[$e]=$HOME/.cache/tldr/,$HOME/Downloads/
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+Version=202
+ViewPropsTimestamp=2022,1,28,15,22,17
+
+[IconsMode]
+PreviewSize=80
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+Recent Files[$e]=file:$HOME,file:$HOME/.cache/tldr
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/.cache/tldr/
+iconViewIconSize=64
+
+[KPropertiesDialog]
+DVI-I-1 Height 1080=442
+DVI-I-1 Height 1920x1080=500
+DVI-I-1 Height 1920x1080 DVI-I-1=478
+DVI-I-1 Width 1920=311
+DVI-I-1 Width 1920x1080=429
+DVI-I-1 Width 1920x1080 DVI-I-1=441
+VGA-1 Height 1080=442
+VGA-1 Width 1920=323
+
+[MainWindow]
+DVI-I-1 Height 1080=583
+DVI-I-1 Height 1920x1080=1080
+DVI-I-1 Width 1920=915
+DVI-I-1 Width 1920x1080=1920
+DVI-I-1 Window-Maximized 1920x1080=true
+DVI-I-1 XPosition=892
+DVI-I-1 XPosition 1920x1080=0
+DVI-I-1 YPosition=220
+DVI-I-1 YPosition 1920x1080=0
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+VGA-1 Height 1080=575
+VGA-1 Width 1920=946
+VGA-1 XPosition=742
+VGA-1 YPosition=401
+VGA-1-1 Height 1080=628
+VGA-1-1 Width 1920=1021
+VGA-1-1 XPosition=238
+VGA-1-1 YPosition=217
+
+[Open-with settings]
+CompletionMode=1
+History=

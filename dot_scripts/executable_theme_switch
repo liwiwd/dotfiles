@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+profiles_path=~/.config/konsave/profiles
+# profiles=($(ls $profiles_path))
+# readarray -t profiles < <(ls $profiles_path)
+IFS=$'\n' read -r -d '' -a profiles < <(ls $profiles_path)
+[ -f "$PWD/default" ] || touch "$PWD/default"
+default=$(cat "$PWD/default")
+length=${#profiles[@]}
+
+i=0
+while [ "$i" -lt "$length" ]; do
+  [ "${profiles[i++]}" = "$default" ] && break
+done
+
+if [ "$i" -eq "$length" ]; then
+  i=0
+fi
+
+#autostart_path=~/.config/autostart
+#latte_desktop=~/.local/share/applications/org.kde.latte-dock.desktop
+next=${profiles[$i]}
+printf %s "$next" | tee "$PWD/default" >/dev/null
+echo "going to set theme: $next"
+konsave -a "$next"
+if [[ $next = *"latte"* ]]; then
+  #[ -f ${autostart_path}/org.kde.latte-dock.desktop ] || cp $latte_desktop $autostart_path
+  ps -C latte-dock >/dev/null || nohup latte-dock --enable-autostart >/dev/null 2>&1 &
+else
+  #[ -f ${autostart_path}/org.kde.latte-dock.desktop ] && rm ${autostart_path}/org.kde.latte-dock.desktop
+  ps -C latte-dock >/dev/null && killall latte-dock && latte-dock --disable-autostart
+fi
+qdbus org.kde.KWin /KWin reconfigure; kquitapp5 plasmashell && kstart5 plasmashell > /dev/null 2>&1
+#bash ~/.scripts/countdown_timer
+#qdbus org.kde.Shutdown /Shutdown logout

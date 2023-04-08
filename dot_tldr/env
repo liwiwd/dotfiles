@@ -1,0 +1,14 @@
+#!/bin/sh
+# tldr python client configuration
+if command -v tldr >/dev/null; then
+    export TLDR_COLOR_NAME="cyan"
+    export TLDR_COLOR_DESCRIPTION="white"
+    export TLDR_COLOR_EXAMPLE="green"
+    export TLDR_COLOR_COMMAND="red"
+    export TLDR_COLOR_PARAMETER="white"
+   # export TLDR_LANGUAGE="en"
+    export TLDR_CACHE_ENABLED=1
+    export TLDR_CACHE_MAX_AGE=720
+    export TLDR_PAGES_SOURCE_LOCATION="$HOME/.cache/tldr/pages"
+    export TLDR_DOWNLOAD_CACHE_LOCATION="https://tldr.sh/assets/tldr.zip"
+fi
